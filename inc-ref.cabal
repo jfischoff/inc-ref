@@ -2,8 +2,8 @@
 -- documentation, see http://haskell.org/cabal/users-guide/
 
 name:                inc-ref
-version:             0.2.0.0
-synopsis:            A STM reference that is useful for incremental computing
+version:             0.3.0.0
+synopsis:            A STM reference useful for incremental computing
 -- description:         
 homepage:            https://github.com/jfischoff/inc-ref
 license:             BSD3
@@ -17,7 +17,7 @@ build-type:          Simple
 cabal-version:       >=1.10
 
 library
-  exposed-modules:     IncRef
+  exposed-modules:     Control.Concurrent.IncRef
   -- other-modules:       
   other-extensions:    RecordWildCards
   build-depends: base < 99.0
