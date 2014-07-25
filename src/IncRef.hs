@@ -1,5 +1,5 @@
 {-# LANGUAGE RecordWildCards #-}
-module IncRef where
+module Control.Concurrent.IncRef where
 import Control.Concurrent.STM
 import Control.Applicative
 
